@@ -1,3 +1,6 @@
+.container{
+    box-shadow: 10px 10px 10px 5px rgb(182, 178, 178);
+}
 .caro-bar{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -97,11 +100,13 @@
     margin-top: 20px;
     width: 100%;
     border: 1px solid black;
+    margin-bottom: 40px;
 }
 .managment-area h3{
     background-image: linear-gradient(to right, rgb(5, 72, 117), rgb(37, 138, 221));
     text-align: center;
     color: #fff;
+    
 }
 .footer{
     background-color: black;
