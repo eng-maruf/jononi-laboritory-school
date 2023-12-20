@@ -1,0 +1,22 @@
+tr th{
+    border: 1px solid black;
+    column-gap: 40px;
+}
+tr td{
+    border: 1px solid black;
+}
+.student-data{
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.student-data th, .student-data td{
+    border: 1px solid black;
+    padding: 10px 200px 10px 5px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .student-data th, .student-data td{
+        border: 1px solid black;
+        padding: 10px 35px 10px 5px;
+    }
+}
